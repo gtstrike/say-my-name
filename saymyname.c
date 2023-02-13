@@ -2,5 +2,6 @@
 #include<cs50.h>
 int main(void)
 {
-    printf("say my name\n");
+    string name =get_string("say my name!\n");
+    printf("you're goddam right\n");
 }
