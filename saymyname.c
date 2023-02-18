@@ -16,11 +16,20 @@ int main(void)
 
     if (strcmp(name, name2) == 0)
     {
-        printf("you're goddam right\n");
+
     }
     else
     {
         printf("we all know exactly who i am say my name\n");
+        scanf("%s", name);
+    }
+    if (strcmp(name, name2) == 0)
+    {
+
+    }
+    else
+    {
+        printf("i'm the cook. i'm the man who killed gus fring\n");
         scanf("%s", name);
     }
     //return 0;
