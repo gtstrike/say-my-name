@@ -10,9 +10,24 @@ int main(void)
     //fgets(name, sizeof(name), stdin);
     // printf("%s", name);
     scanf("%s", name);
+
+    do
+    {
+
     if (strcmp(name, name2) == 0)
     {
         printf("you're goddam right\n");
     }
-    return 0;
+    else
+    {
+        printf("we all know exactly who i am say my name\n");
+        scanf("%s", name);
+    }
+    //return 0;
+    }
+    while(strcmp(name, name2) != 0);
+    if (strcmp(name, name2) == 0)
+    {
+        printf("you're goddam right\n");
+    }
 }
